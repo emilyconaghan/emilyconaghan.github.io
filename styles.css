@@ -1,0 +1,233 @@
+/* COLOR PALLET
+GunMetal: #132932
+Dark Green: #354a40
+Light Green: #607668
+Dark Pink: #ceaa98
+Light Pink: #ffece2
+Dark Gray: #d9d9d8
+Light Gray: f4f4f4 */
+
+
+/*Font Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Roboto+Mono&display=swap');
+
+/*General Styling*/
+
+.nav{
+    background-color:#ffece2;
+    color:#132932;
+    font-family: Roboto Mono;
+    font-size: 12pt;
+    text-align: right;
+    padding: 0 25px 0 25px;
+    border-radius: 25px;
+}
+
+.logo{
+
+    background-color:#ffece2;
+    color:#132932;
+    font-family: Roboto Mono;
+    font-size: 12pt;
+    text-align: left;
+    padding: 0 25px 0 25px;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+/*div{
+    background-color: #B4ADEA;
+}*/
+
+.banner-image {
+    width: 100%;
+    height: 20%;
+    border-radius: 25px;
+}
+/* INDEX STYLING*/
+
+#logo-image{
+    length: 10%;
+    width: 10%;
+    text-align: left
+}
+
+.index-div{
+display:inline-flex;
+justify-content: center;
+justify-items: center;
+flex-wrap: center;
+align-items: center;
+flex: 2;
+margin-bottom: 2%;
+margin-left: 3.5%;
+margin-block-start: 6%;
+margin-block-end: 6%;
+width: 28%;
+height: 200px;
+font-family: Roboto Mono;
+font-size: 25px;
+font-weight: 700;
+border-radius: 25px;
+
+}
+
+a:link {
+    color: #132932;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#132932;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#ceaa98;
+    text-decoration: none;
+}
+
+
+#index-div-1 {
+    background-color: #607668;
+    border: 4px solid #354a40;
+}
+
+#index-div-2 {
+    background-color: #ffece2;
+    border: 4px solid #ceaa98;
+}
+
+#index-div-3 {
+    background-color: #607668;
+    border: 4px solid #354a40;
+}
+
+#index-div-4 {
+    background-color: #ffece2;
+    border: 4px solid #ceaa98;
+}
+
+#index-div-5 {
+    background-color: #607668;
+    border: 4px solid #354a40;
+}
+
+#index-div-6 {
+    background-color: #ffece2;
+    border: 4px solid #ceaa98;
+}
+
+/* ABOUT ME STYLING*/
+
+h1 {
+    text-align: center;
+    font-family: Ms Madi;
+    font-size: 48pt;
+    color:#ceaa98;
+}
+
+h2 {
+    text-align: center;
+    font-family: Roboto Mono;
+    font-size: 14pt;
+    color: #132932;
+}
+
+p{
+    text-align: justify;
+    font-family: Roboto Mono;
+    font-size: 12pt;
+    color: 132932;
+    margin: 5%;
+}
+
+/* WHAT'S THE STACK STYLING*/
+.WTS-image{
+  width: 50%; 
+  height: 50%;
+  justify-content: center; 
+}
+
+/* TUNES STYLING*/
+
+#spotify-widget {
+    justify-content: center;
+
+}
+
+
+
+/* CONTACT ME STYLING*/
+
+form {
+    margin: 50px auto;
+    width: 90%;
+    border-radius: 25px;
+}
+
+.form-text{
+    font-family: Roboto Mono;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-family: Roboto Mono;
+    border-radius: 25px;
+}
+
+.form-item label {
+    flex-basis: 150px;
+    font-size: 22px;
+    font-family: Roboto Mono;
+}
+
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+    /*border: 4px solid #FFC6AC;*/
+    font-family: Roboto Mono;
+    border-radius: 25px;
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 4px solid #354a40;
+    border-radius: 25px;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+    border: 4px solid #ceaa98;
+    background-color: #ffece2;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 25px;
+    color: 132932
+}
+
+.form-item button:hover {
+    border: 2px solid #354a40;
+    background-color: #354a40;
+    color: #ffece2;
+    border-radius: 25px;
+}
+
+.form-item button {
+    width: 100px;
+    border-radius: 25px;
+}
+
+.form-text{
+    font-family: Roboto Mono;
+    border-radius: 25px;
+    color:#132932
+}
+
