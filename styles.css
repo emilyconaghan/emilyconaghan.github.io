@@ -54,7 +54,11 @@ body{
     width: 10%;
     text-align: left
 }
-
+.whole-div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
 .index-div {
     display:inline-flex;
     justify-content: center;
@@ -63,10 +67,6 @@ body{
     align-items: center;
     flex: 2;
     margin:3%;
-    /* margin-bottom: 2%;
-    margin-left: 3.5%; */
-    /* margin-block-start: 6%; */
-    /*margin-block-end: 6%;*/
     width: 90%;
     height: 200px;
     font-family: Roboto Mono;
@@ -232,8 +232,14 @@ form {
 }
 
 @media screen and (min-width: 780px) {
-.index-div{
-    width: 28%;
-    margin: 3% 0;
-}    
+    .whole-div {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .index-div{
+        min-width: 30%;
+        margin: 3% 0;
+    }    
 }
