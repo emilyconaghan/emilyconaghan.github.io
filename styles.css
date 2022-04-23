@@ -44,7 +44,7 @@ body{
 
 .banner-image {
     width: 100%;
-    height: 20%;
+    height: 10%;
     border-radius: 25px;
 }
 /* INDEX STYLING*/
@@ -78,6 +78,7 @@ body{
 a:link {
     color: #132932;
     text-decoration: none;
+    font-size:60%;
 }
 
 a:visited {
@@ -145,6 +146,12 @@ p{
     margin: 5%;
 }
 
+li{
+    text-align: justify;
+    font-family: Roboto Mono;
+    font-size: 12pt;
+}
+
 /* WHAT'S THE STACK STYLING*/
 .WTS-image{
   width: 50%; 
@@ -154,11 +161,9 @@ p{
 
 /* TUNES STYLING*/
 
-#spotify-widget {
-    justify-content: center;
-
+.spotify{
+    text-align: center;
 }
-
 
 
 /* CONTACT ME STYLING*/
@@ -231,6 +236,29 @@ form {
     color:#132932
 }
 
+/* RECOMMENDATIONS STYLING*/
+
+.Podcasts{
+    background-color: #ffece2;
+}
+
+.TV{
+    background-color:#607668;
+    color:#f4f4f4;
+}
+
+.Books{
+    background-color:#ffece2;
+}
+
+.Movies{
+    background-color: #607668;
+    color:#f4f4f4;
+}
+
+
+
+
 @media screen and (min-width: 780px) {
     .whole-div {
         flex-direction: row;
@@ -241,5 +269,9 @@ form {
     .index-div{
         min-width: 30%;
         margin: 3% 0;
-    }    
+    }
+
+    a:link{
+        font-size: 100%;
+    }
 }
