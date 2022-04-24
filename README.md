@@ -6,7 +6,7 @@
 As part of the She Codes PLUS course, I have completed my first assignment which was to create a potfolio using HTML and CSS
 
 ## Live Site Link:
-You can access my live portfolio [here](emilyconaghan.github.io).
+You can access my live portfolio [here](https://emilyconaghan.github.io/).
 
 ## Features of my Portfolio:
 - 6 functioning pages
