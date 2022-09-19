@@ -7,463 +7,466 @@ Light Pink: #ffece2
 Dark Gray: #d9d9d8
 Light Gray: f4f4f4 */
 
-
 /*Font Imports*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&family=Roboto+Mono&display=swap");
 
 /*General Styling*/
 
-.nav{
-    background-color:#ffece2;
-    color:#132932;
-    font-family: Roboto Mono;
-    text-align: right;
-    padding: 0px 25px 10px 25px;
-    border-radius: 25px;
-    font-size: 12pt;
+.nav {
+  background-color: #ffece2;
+  color: #132932;
+  font-family: Roboto Mono;
+  text-align: right;
+  padding: 0px 25px 10px 25px;
+  border-radius: 25px;
+  font-size: 12pt;
 }
 
-.logo{
-
-    background-color:#ffece2;
-    color:#132932;
-    font-family: Roboto Mono;
-    font-size: 12pt;
-    text-align: left;
-    padding: 0 5px 0 0px;
+.logo {
+  background-color: #ffece2;
+  color: #132932;
+  font-family: Roboto Mono;
+  font-size: 12pt;
+  text-align: left;
+  padding: 0 5px 0 0px;
 }
 
-body{
-    background-color: #f4f4f4;
+body {
+  background-color: #f4f4f4;
 }
 
 .banner-image {
-    width: 100%;
-    height: 20%;
-    border-radius: 25px;
-    object-fit: cover;
-    padding-top: 20px;
+  width: 100%;
+  height: 375px;
+  border-radius: 25px;
+  object-fit: cover;
+  padding-top: 20px;
 }
 
 .index-image {
-    width: 100%;
-    height: 20%;
-    border-radius: 25px;
-    object-fit: cover;
-    padding-top: 20px;
+  width: 100%;
+  height: 20%;
+  border-radius: 25px;
+  object-fit: cover;
+  padding-top: 20px;
 }
 
-footer{
-    font-family: Roboto Mono;
-    font-size: 6pt;
-    color:#bebdbd;
-    text-align: center;
+footer {
+  font-family: Roboto Mono;
+  font-size: 6pt;
+  color: #bebdbd;
+  text-align: center;
 }
 /* INDEX STYLING*/
 
-#logo-image{
-    length: 85px;
-    width: 85px;
-    text-align: left
+#logo-image {
+  length: 85px;
+  width: 85px;
+  text-align: left;
 }
-.whole-div{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+.whole-div {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
 .index-div {
-    display:inline-flex;
-    justify-content: center;
-    justify-items: center;
-    flex-wrap: center;
-    align-items: center;
-    flex: 2;
-    margin:3%;
-    width: 90%;
-    height: 200px;
-    font-family: Roboto Mono;
-    font-size: 25px;
-    font-weight: 700;
-    border-radius: 25px;
+  display: inline-flex;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: center;
+  align-items: center;
+  flex: 2;
+  margin: 3%;
+  width: 90%;
+  height: 200px;
+  font-family: Roboto Mono;
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 25px;
 }
 
 a:link {
-    color: #132932;
-    text-decoration: none;
-    font-size:60%;
+  color: #132932;
+  text-decoration: none;
+  font-size: 60%;
 }
 
 a:visited {
-    color:#132932;
-    text-decoration: none;
+  color: #132932;
+  text-decoration: none;
 }
 
 a:hover {
-    color:#ceaa98;
-    text-decoration: none;
+  color: #ceaa98;
+  text-decoration: none;
 }
 
-
 #index-div-1 {
-    background-color: #607668;
-    border: 4px solid #354a40;
+  background-color: #607668;
+  border: 4px solid #354a40;
 }
 
 #index-div-2 {
-    background-color: #ffece2;
-    border: 4px solid #ceaa98;
+  background-color: #ffece2;
+  border: 4px solid #ceaa98;
 }
 
 #index-div-3 {
-    background-color: #607668;
-    border: 4px solid #354a40;
+  background-color: #607668;
+  border: 4px solid #354a40;
 }
 
 #index-div-4 {
-    background-color: #ffece2;
-    border: 4px solid #ceaa98;
+  background-color: #ffece2;
+  border: 4px solid #ceaa98;
 }
 
 #index-div-5 {
-    background-color: #607668;
-    border: 4px solid #354a40;
+  background-color: #607668;
+  border: 4px solid #354a40;
 }
 
 #index-div-6 {
-    background-color: #ffece2;
-    border: 4px solid #ceaa98;
+  background-color: #ffece2;
+  border: 4px solid #ceaa98;
 }
 
-.link-logos{
-    text-align: center;
+.link-logos {
+  text-align: center;
 }
 
 /* ABOUT ME STYLING*/
 
 h1 {
-    text-align: center;
-    font-family: Ms Madi;
-    font-size: 24pt;
-    color:#ceaa98;
-    margin: 5%;
+  text-align: center;
+  font-family: Ms Madi;
+  font-size: 24pt;
+  color: #ceaa98;
+  margin: 5%;
 }
 
 h2 {
-    text-align: center;
-    font-family: Roboto Mono;
-    font-size: 12pt;
-    color: #132932;
-    margin:5%
+  text-align: center;
+  font-family: Roboto Mono;
+  font-size: 12pt;
+  color: #132932;
+  margin: 5%;
 }
 
-p{
-    text-align: justify;
-    font-family: Roboto Mono;
-    font-size: 10pt;
-    color: 132932;
-    margin: 5%;
+p {
+  text-align: justify;
+  font-family: Roboto Mono;
+  font-size: 10pt;
+  color: 132932;
+  margin: 5%;
 }
 
-li{
-    text-align: justify;
-    font-family: Roboto Mono;
-    font-size: 12pt;
-    color: #132932;
-    padding: 2%;
+li {
+  text-align: justify;
+  font-family: Roboto Mono;
+  font-size: 12pt;
+  color: #132932;
+  /* padding: 2%; */
 }
 
 /* WHAT'S THE STACK STYLING*/
-.WTS-image{
-  width: 50%; 
+.WTS-image {
+  width: 50%;
   height: 50%;
-  justify-content: center; 
+  justify-content: center;
 }
 
 /* TUNES STYLING*/
 
-.spotify{
-    text-align: center;
+.spotify {
+  text-align: center;
 }
-
 
 /* CONTACT ME STYLING*/
 
 form {
-    margin: 50px auto;
-    width: 90%;
-    border-radius: 25px;
+  margin: 50px auto;
+  width: 90%;
+  border-radius: 25px;
 }
 
-.form-text{
-    font-family: Roboto Mono;
+.form-text {
+  font-family: Roboto Mono;
 }
 
 .form-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    font-family: Roboto Mono;
-    border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-family: Roboto Mono;
+  border-radius: 25px;
 }
 
 .form-item label {
-    flex-basis: 150px;
-    font-size: 22px;
-    font-family: Roboto Mono;
-    text-align: left;
+  flex-basis: 150px;
+  font-size: 22px;
+  font-family: Roboto Mono;
+  text-align: left;
 }
 
 .form-item input,
 .form-item textarea {
-    flex-basis: 75%;
-    font-family: Roboto Mono;
-    border-radius: 25px;
+  flex-basis: 75%;
+  font-family: Roboto Mono;
+  border-radius: 25px;
 }
 
 .form-item input:hover,
 .form-item textarea:hover {
-    border: 4px solid #354a40;
-    border-radius: 25px;
+  border: 4px solid #354a40;
+  border-radius: 25px;
 }
 
 .form-item input,
 .form-item textarea,
 .form-item button {
-    border: 4px solid #ceaa98;
-    background-color: #ffece2;
-    padding: 5px;
-    font-size: 18px;
-    border-radius: 25px;
-    color: 132932
+  border: 4px solid #ceaa98;
+  background-color: #ffece2;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 25px;
+  color: 132932;
 }
 
 .form-item button:hover {
-    border: 2px solid #354a40;
-    background-color: #354a40;
-    color: #ffece2;
-    border-radius: 25px;
+  border: 2px solid #354a40;
+  background-color: #354a40;
+  color: #ffece2;
+  border-radius: 25px;
 }
 
 .form-item button {
-    width: 100px;
-    border-radius: 25px;
+  width: 100px;
+  border-radius: 25px;
 }
 
-.form-text{
-    font-family: Roboto Mono;
-    border-radius: 25px;
-    color:#132932
+.form-text {
+  font-family: Roboto Mono;
+  border-radius: 25px;
+  color: #132932;
 }
 
 /* RECOMMENDATIONS STYLING*/
 
-.Recommendation-Intro h1{
-font-family: Roboto Mono;
-font-size: 14pt;
+.Recommendation-Intro h1 {
+  font-family: Roboto Mono;
+  font-size: 14pt;
 }
 
-.Podcasts{
-    background-color: #ffece2;
-    border-radius: 25px;
-    margin: 10px 30px 10px 30px;
-    padding: 10px;
-    font-size: 8pt;
+.Podcasts {
+  background-color: #ffece2;
+  border-radius: 25px;
+  margin: 10px 30px 10px 30px;
+  padding: 10px;
+  font-size: 8pt;
 }
 
-.Podcasts h1{
-    font-style: italic;
-    text-decoration: underline;
+.Podcast-list {
+  padding: 1px;
 }
 
-.TV{
-    background-color:#607668;
-    border-radius: 25px;
-    margin: 10px 30px 10px 30px;
-    padding: 10px;
+.Podcasts h1 {
+  font-style: italic;
+  text-decoration: underline;
 }
 
-.Books{
-    background-color:#ffece2;
-    border-radius: 25px;
-    margin: 10px 30px 10px 30px;
-    padding: 10px;
+.TV {
+  background-color: #607668;
+  border-radius: 25px;
+  margin: 10px 30px 10px 30px;
+  padding: 10px;
 }
 
-.Movies{
-    background-color: #607668;
-    border-radius: 25px;
-    margin: 10px 30px 10px 30px;
-    padding: 10px;
+.Books {
+  background-color: #ffece2;
+  border-radius: 25px;
+  margin: 10px 30px 10px 30px;
+  padding: 10px;
 }
 
+.Movies {
+  background-color: #607668;
+  border-radius: 25px;
+  margin: 10px 30px 10px 30px;
+  padding: 10px;
+}
 
 /* WHAT'S THE STACK STYLING*/
 
 .card {
-    border: 2px solid #132932;
-    width: 90%;
-    padding: 15px;
-    display:block;
-    text-align: center;
-    vertical-align: middle;
-    margin: 30px 1px 30px 1px;
-    height: 330px;
-    background-color: #f1f1f1;
-    object-fit: contain;
-    border-radius: 25px;
+  border: 2px solid #132932;
+  width: 90%;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  margin: 30px 1px 30px 1px;
+  height: 330px;
+  background-color: #f1f1f1;
+  object-fit: contain;
+  border-radius: 25px;
 }
 
 .card:hover {
-    box-shadow: 0px 0px 10px #bebdbd;
-    border: 4px solid #ceaa98;
+  box-shadow: 0px 0px 10px #bebdbd;
+  border: 4px solid #ceaa98;
 }
 
 .card img {
-    width: 100%;
-    height: 200px;
-    object-fit:cover;
-    border-radius: 25px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 25px;
 }
 
 .card h2 {
-    display: inline-block;
-    font-size: 12pt;
+  display: inline-block;
+  font-size: 12pt;
 }
 
 .card .sub-card-heading {
-    color: #132932;
-    font-size: 12pt;
+  color: #132932;
+  font-size: 12pt;
 }
 
-
 .card a {
-    line-height: 12pt;
-    display: block;
-    color: #132932;
-    font-size: 18pt;
-    font-family: Ms Madi;
+  line-height: 12pt;
+  display: block;
+  color: #132932;
+  font-size: 18pt;
+  font-family: Ms Madi;
 }
 
 .card p {
-    color: #4e4e4e;
+  color: #4e4e4e;
 }
 
 /* PROJECTS STYLING*/
 
 .card-projects {
-    border: 2px solid #132932;
-    width: 80%;
-    padding: 15px;
-    display:block;
-    text-align: center;
-    margin:auto;
-    margin-bottom: 15px;
-    height: 350px;
-    background-color: #f1f1f1;
-    object-fit: contain;
-    border-radius: 25px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  border: 2px solid #132932;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  margin: 10px 35px 10px 35px;
+  background-color: #f1f1f1;
+  object-fit: contain;
+  border-radius: 25px;
 }
 
 .card-projects:hover {
-    box-shadow: 0px 0px 10px #bebdbd;
+  box-shadow: 0px 0px 10px #bebdbd;
 }
 
 .card-projects img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 25px;
+  width: 100%;
+  /* height: px; */
+  object-fit: cover;
+  border-radius: 25px;
+  resize: 50%;
 }
-
 .card-projects h2 {
-    display: inline-block;
+  display: inline-block;
 }
 
 .card-projects .sub-card-heading {
-    color: #132932;
-    font-size: 24pt;
+  color: #132932;
+  font-size: 24pt;
 }
 
-
 .card-projects a {
-    line-height: 12pt;
-    display: block;
-    color: #132932;
-    font-size: 24pt;
-    font-family: Ms Madi;
+  line-height: 12pt;
+  display: block;
+  color: #132932;
+  font-size: 24pt;
+  font-family: Ms Madi;
 }
 
 .card-projects p {
-    color: #4e4e4e;
+  color: #4e4e4e;
 }
 
-
 @media screen and (min-width: 780px) {
-    .whole-div {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 12px;
-    }
+  .whole-div {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
 
-    .index-div{
-        min-width: 30%;
-        margin: 3% 0;
-    }
+  .index-div {
+    min-width: 30%;
+    margin: 3% 0;
+  }
 
-    a:link{
-        font-size: 100%;
-    }
+  a:link {
+    font-size: 100%;
+  }
+  /* 
+  .card-projects img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+  } */
 
-    .card-projects {
-        border: 2px solid #132932;
-        width: 90%;
-        padding: 15px;
-        display:block;
-        text-align: center;
-        vertical-align: middle;
-        margin: 10px 35px 10px 35px;
-        height: 520px;
-        background-color: #f1f1f1;
-        object-fit: contain;
-        border-radius: 25px;
-    }
+  .card-projects {
+    min-width: 30%;
+    margin: 3% 0;
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: center;
+    align-items: center;
+    flex: 2;
+    border: 2px solid #132932;
+    width: 90%;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px 35px 10px 35px;
+    background-color: #f1f1f1;
+    object-fit: contain;
+    border-radius: 25px;
+  }
 
-    .card-projects img {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-        border-radius: 25px;
-    }
+  .card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+  }
 
-    .card img {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-        border-radius: 25px;
-    }
+  /* .card {
+    border: 2px solid #132932;
+    width: 90%;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 15px 35px 15px 35px;
+    height: 500px;
+    background-color: #f1f1f1;
+    object-fit: contain;
+    border-radius: 25px;
+  } */
 
-    .card {
-        border: 2px solid #132932;
-        width: 90%;
-        padding: 15px;
-        display:block;
-        text-align: center;
-        vertical-align: middle;
-        margin: 15px 35px 15px 35px;
-        height: 500px;
-        background-color: #f1f1f1;
-        object-fit: contain;
-        border-radius: 25px;
-    }
-
-    h1 {
-        text-align: center;
-        font-family: Ms Madi;
-        font-size: 48pt;
-        color:#ceaa98;
-        margin: 5%;
-    }
-
+  h1 {
+    text-align: center;
+    font-family: Ms Madi;
+    font-size: 48pt;
+    color: #ceaa98;
+    margin: 5%;
+  }
 }
